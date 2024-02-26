@@ -25,7 +25,6 @@ boilerplate/
    ├── .gitignore # Especifica archivos intencionalmente no rastreados para ignorar por Git.
    ├── .htmlnanorc # Configuración para htmlnano, utilizado para minificar archivos HTML.
    ├── ejemplos.txt # Archivo de texto que contiene ejemplos o documentación relevante.
-   ├── img-exporter.js # Script para exportar o procesar imágenes dentro del proyecto.
    ├── LICENSE # El archivo de licencia que especifica los términos bajo los cuales se distribuye el proyecto.
    ├── nunjucks.config.js # Configuración de Nunjucks para definir filtros y variables globales para las plantillas.
    ├── package-lock.json # Autogenerado para cualquier operación donde npm modifica el árbol de node_modules o package.json.
@@ -98,9 +97,8 @@ npm start
 Nos encantaría que contribuyas a The boilerplate. Antes de enviar tu contribución, por favor lee nuestras directrices de contribución.
 
 Autores
-Manuel - Ux old school
-Dani - Criptovrox
-José - Paintballpro
+Manuel - Ux old school siempre a la última
+
 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE.md para detalles.
 
@@ -114,4 +112,4 @@ Inspiración, créditos, etc.
 
 
 
-Hecho con ❤ por Manuel, Dani y José.
+Hecho con ❤ por Manuel

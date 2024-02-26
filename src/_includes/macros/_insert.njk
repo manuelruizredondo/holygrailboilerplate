@@ -268,14 +268,14 @@
   </div>
 </div>
 {% endmacro %}
-{% macro timeline(año = '', nombre = '',descripcion = '', especialidad = '', imagen = '' ) %}
-<div class="column-timeline ">
+{% macro images(año = '', nombre = '',descripcion = '', especialidad = '', imagen = '' ) %}
+<div class="column-images ">
   <div class="line-w"></div>
   <div class="mask-wrap">
-    <div class="hoverable_image" data-image-src="/assets/static/timeline/{{imagen}}_1.webp"></div>
-    <div class="hoverable_image" data-image-src="/assets/static/timeline/{{imagen}}_2.webp"></div>
-    <div class="hoverable_image" data-image-src="/assets/static/timeline/{{imagen}}_3.webp"></div>
-    <div class="hoverable_image" data-image-src="/assets/static/timeline/{{imagen}}_4.webp"></div>
+    <div class="hoverable_image" data-image-src="/assets/static/images/1.jpg"></div>
+    <div class="hoverable_image" data-image-src="/assets/static/images/2.webp"></div>
+    <div class="hoverable_image" data-image-src="/assets/static/images/3.webp"></div>
+    <div class="hoverable_image" data-image-src="/assets/static/images/4.webp"></div>
   </div>
   <div class="column-grid">
     <div>
@@ -292,14 +292,14 @@
       <div class="tag-btn"> {{especialidad_part}}</div>
       {% endfor %}
     </div>
-    <div class="timeline-img sm:visible">
-      <img src="/assets/static/timeline/{{imagen}}_1.webp" alt="">
+    <div class="images-img sm:visible">
+      <img src="/assets/static/images/1.jpg" alt="">
     </div>
   </div>
 </div>
 {% endmacro %}
-{% macro timeline2(nombre = '',descripcion = '', imagen = '' ) %}
-<div class="column-timeline hoverable_image" data-image-src="/assets/static/timeline/{{imagen}}.webp">
+{% macro images2(nombre = '',descripcion = '', imagen = '' ) %}
+<div class="column-images hoverable_image" data-image-src="/assets/static/images/{{imagen}}.webp">
   <div class="line-w"></div>
   <div class="is-flex flex-column pt-16 pb-16">
     <div class="fluid-6-b mb-8">{{nombre}}</div>
