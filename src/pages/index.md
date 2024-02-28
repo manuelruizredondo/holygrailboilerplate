@@ -16,14 +16,6 @@ image: libro.webp
 content_2: --Crece más rápido--. Recolecta inscripciones con formularios, utiliza estos datos,rastrea eventos y analíticas.
 
 
-
-
-
-
-
-
-
-
 eleventyComputed:
   metaTitle: the boilerplate en español | Una recopilación de material para aprender the boilerplate
   metaDescription: Explora casos de estudio, aprende las mejores prácticas y mantente actualizado en este emocionante campo del diseño centrado en los the boilerplate.
